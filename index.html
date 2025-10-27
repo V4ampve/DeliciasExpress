@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Delícia Express - Comida Rápida e Saborosa</title>
   </head>
@@ -20,95 +22,64 @@
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
+
         <div class="search-bar">
           <input type="text" placeholder="Buscar pratos..." />
           <button></button>
         </div>
-        <!-- Botão Login redirecionando para login.html -->
+
+        <!-- Botões de Cadastro e Login -->
+        <a href="cadastro.html" class="login-btn">Cadastrar</a>
         <a href="login.html" class="login-btn">Login</a>
       </nav>
     </header>
 
     <!-- Carrossel -->
-    <div
-      id="carouselImproved"
-      class="carousel slide mt-3"
-      data-bs-ride="carousel"
-    >
+    <div id="carouselImproved" class="carousel slide mt-3" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselImproved"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselImproved"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselImproved"
-          data-bs-slide-to="2"
-        ></button>
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselImproved" data-bs-slide-to="2"></button>
       </div>
+
       <div class="carousel-inner rounded-4 shadow-lg">
         <div class="carousel-item active" data-bs-interval="2500">
-          <img
-            src="/pizza2.avif"
-            class="d-block w-100"
-            alt="Prato delicioso de comida brasileira"
-          />
+          <img src="/pizza2.avif" class="d-block w-100" alt="Prato delicioso de comida brasileira" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Sabores irresistíveis</h5>
             <p>Descubra o melhor da culinária com apenas um clique.</p>
           </div>
         </div>
+
         <div class="carousel-item" data-bs-interval="2500">
-          <img
-            src="/comida1.avif"
-            class="d-block w-100"
-            alt="Comida gourmet em um prato elegante"
-          />
+          <img src="/comida1 (1).avif" class="d-block w-100" alt="Comida gourmet em um prato elegante" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Comida feita com amor</h5>
             <p>Pedidos rápidos, entregas seguras e sabor incomparável.</p>
           </div>
         </div>
+
         <div class="carousel-item" data-bs-interval="2500">
-          <img
-            src="/pizza.avif"
-            class="d-block w-100"
-            alt="Mesa com vários pratos coloridos"
-          />
+          <img src="/pizza.avif" class="d-block w-100" alt="Mesa com vários pratos coloridos" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Peça agora mesmo</h5>
             <p>Explore novas opções e aproveite promoções especiais.</p>
           </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselImproved"
-        data-bs-slide="prev"
-      >
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselImproved" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Anterior</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselImproved"
-        data-bs-slide="next"
-      >
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselImproved" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Próximo</span>
       </button>
     </div>
 
-    <!-- Seção Cardápio -->
+     <!-- Seção Cardápio -->
     <section id="cardapio" class="container mt-5 mb-5">
       <h2 class="text-center mb-4">Cardápio</h2>
       <p class="text-center">Confira alguns dos nossos pratos deliciosos:</p>
@@ -126,7 +97,7 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="/combo.jpg" class="card-img-top" alt="Hambúrguer" />
+            <img src="/combo (1).jpg" class="card-img-top" alt="Hambúrguer" />
             <div class="card-body text-center">
               <h5 class="card-title">Combo Especial</h5>
               <p class="card-text">
@@ -222,59 +193,48 @@
       </div>
     </section>
 
+
     <!-- Seção Sobre -->
     <section id="sobre" class="container mt-5 mb-5">
       <h2 class="text-center mb-4">Sobre Nós</h2>
       <p>
-Na Delicia Express, somos apaixonados por sabor e qualidade! 
-Preparamos pizzas artesanais com ingredientes frescos, criamos porções e combos deliciosos para todos os gostos. 
+        Na Delícia Express, somos apaixonados por sabor e qualidade! Preparamos pizzas artesanais com ingredientes
+        frescos e criamos combos deliciosos para todos os gostos.
+      </p>
+      <p>Mais do que um delivery, somos um lugar para compartilhar bons momentos e viver experiências únicas.</p>
 
-<p>Mais que uma pizzaria, somos um lugar para compartilhar bons momentos e viver experiências inesquecíveis.</p>
-      </p>
-      <p>
-        Delicias Express — o sabor que reúne pessoas!
-      </p>
       <ul>
-        <li>
-          <strong>Missão:</strong> Levar qualidade e sabor, unindo pessoas em torno da boa comida.
-        </li>
-        <li>
-          <strong>Visão:</strong> Ser a pizzaria preferida da região, referência em sabor e inovação.
-        </li>
-        <li>
-          <strong>Valores:</strong> Qualidade, dedicação, satisfação do cliente, tradição e honestidade.
-        </li>
+        <li><strong>Missão:</strong> Levar qualidade e sabor, unindo pessoas em torno da boa comida.</li>
+        <li><strong>Visão:</strong> Ser a pizzaria preferida da região, referência em sabor e inovação.</li>
+        <li><strong>Valores:</strong> Qualidade, dedicação, satisfação do cliente e honestidade.</li>
       </ul>
     </section>
 
     <!-- Contato -->
-  <section id="contato" class="container mt-5 mb-5 text-center">
-    <h2 class="mb-3">Contato via WhatsApp</h2>
-    <p>Entre em contato diretamente pelo nosso número abaixo:</p>
-    <a href="https://wa.me/5598999999999" target="_blank" 
-    class="btn btn-success whatsapp-botao">
-      <img src="/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
-      (32) 98496-8167
-    </a>
-  </section>
-   
+    <section id="contato" class="container mt-5 mb-5 text-center">
+      <h2 class="mb-3">Contato via WhatsApp</h2>
+      <p>Entre em contato diretamente pelo nosso número abaixo:</p>
+      <a
+        href="https://wa.me/5532984968167"
+        target="_blank"
+        class="btn btn-success whatsapp-botao"
+      >
+        <img src="/whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
+        (32) 98496-8167
+      </a>
+    </section>
+
     <!-- Rodapé -->
     <footer>
       <p>Siga-nos nas redes:</p>
       <div class="social">
-        <a href="#"
-          ><img class="favImg" src="facebook (1).png" alt="" /> Facebook</a
-        >
-        <a href="#"><img class="favImg" src="/twitter.png" alt="" />Twitter</a>
-        <a href="#"
-          ><img class="favImg" src="/instagram.png" alt="" /> Instagram</a
-        >
+        <a href="#"><img class="favImg" src="/facebook (1).png" alt="" /> Facebook</a>
+        <a href="#"><img class="favImg" src="/twitter.png" alt="" /> Twitter</a>
+        <a href="#"><img class="favImg" src="/instagram.png" alt="" /> Instagram</a>
       </div>
       <p>© 2025 Delícia Express - Todos os direitos reservados.</p>
     </footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
